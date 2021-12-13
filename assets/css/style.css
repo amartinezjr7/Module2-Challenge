@@ -5,10 +5,10 @@
 }
 
 :root{
-    --background-color:rgba(190, 190, 224, 0.089);
+    --background-color: blue;
+    --text-color:white;
 
 }
-
 header{
     padding: 20px 35px;
     background-color:var(--background-color);
@@ -17,11 +17,15 @@ header{
     flex-wrap: wrap;
 }
 header h1{
+    border: 3px solid var(--text-color);
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-   
-
+    color: var(--background-color) ;
+    
+}
+header a{
+    color: var(--text-color);
 }
 header nav{
     margin: 7px 0;
@@ -45,8 +49,9 @@ header nav ul li {
  }
 
  body {
-     /*color:*/
-     font-family: Arial, Helvetica, sans-serif; 
+     background-color: var(--background-color);
+     color:var(--text-color);
+     font-family: Arial, Helvetica, sans-serif;
  }
 
  footer{
@@ -76,16 +81,42 @@ header nav ul li {
      margin: 0 30px;
      font-weight: lighter;
      font-size: 20px;
+     color: var(--text-color);
  }
  section{
      padding: 60px;
  }
+
+ .hero{
+    background-image: url(../images/background-image1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ }
+ .hero-form{
+    border: 3px solid white;
+    background-color: blue;
+    padding: 20px;
+    width: 500px;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+ }
  .work{
-     text-align: left;
+     text-align: right;
  }
  aside{
     flex: 1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: center;
+    background-color:var(--background-color);
+    padding: 100px;
+    text-align: left;
+ }
+ .cards{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 60px;
+    flex: 0 0 400px;
  }
