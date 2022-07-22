@@ -1,1 +1,37 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+:root {
+    background-color: cornflowerblue;
+}
+
+
+.header{
+    position: sticky;
+    position: -webkit-sticky;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+#portNavBar {
+    font-weight: bold; 
+    font-size: large;
+}
+#about {
+   background-color: rgb(158, 97, 214, 0.5);
+}
+
+.card {
+    width: 200px;
+}
