@@ -2,6 +2,9 @@
 
 :root {
     background-color: black;
+    --font-color-primary: rgb(170, 208, 250);
+    --background-primary:black;
+
 }
 
 body{
@@ -23,9 +26,31 @@ body{
 }
 
 .title {
-    color: black;
+    color: var(--background-primary);
     font-weight: bold;
     padding: 20px;
+}
+
+#jobTitle {
+    color: var(--font-color-primary);
+}
+
+#navBar {
+    opacity: 90%;
+    background-color: var(--background-primary);
+}
+
+#about {
+    opacity: 85%;
+}
+
+#aboutTitle{
+    color: var(--font-color-primary);
+}
+
+#navItems {
+    color: var(--font-color-primary);
+    font-weight: bolder;
 }
 
 .subtitle {
@@ -36,10 +61,30 @@ body{
     font-weight: bold; 
     font-size: large;
 }
-#about {
-   background-color: rgb(158, 97, 214, 0.5);
+
+#projectSec{
+    opacity: 80%;
+}
+
+#projects {
+    color: var(--font-color-primary);
 }
 
 .card {
     width: 200px;
+    opacity: 95%;
+}
+#resume{
+    opacity: 90%;
+}
+#resumeTitle{
+    color: var(--font-color-primary);
+}
+
+#contact{
+    opacity: 85%;
+}
+
+#contactTitle {
+    color: var(--font-color-primary);
 }
