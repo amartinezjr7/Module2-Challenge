@@ -3,20 +3,194 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <script src="https://kit.fontawesome.com/6fd6cd2082.js" crossorigin="anonymous"></script>
+    <title>Alex Martinez Jr.</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href = "assets/css/style.css">
+    
   </head>
   <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+    <header class="section">
+        <h1 class="title has-text-centered has-text-light">Alejandro "Alex" Martinez Jr.</h1>
+        <h2 class="subtitle is-italic has-text-centered" id="jobTitle">Web Developer</h2>
+          
+        <nav class="navbar pb-6" id="navBar">
+            <a role="button" class="navbar-burger" data-target= "navMenu" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a> 
+          
+
+          <div class="navbar-menu" id="navMenu" >
+            <div class="navbar-end">
+              <a class="navbar-item" href="#about" id="navItems">
+                About
+              </a>
+              <a class="navbar-item" href="#projects" id="navItems">
+                Projects
+              </a>
+              <a class="navbar-item" href="#contact" id="navItems">
+                Contact Me
+              </a>
+              <a class="navbar-item" href="https://github.com/amartinezjr7">
+                <i class="fab fa-github fa-lg has-text-light"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+<!--About Section-->
+
+    <div class="section">
+      <div class="container pt-6">
+        <div class="box has-background-black" id="about">
+          <div class="content">
+            <h2 class="title has-text-centered is-size-4" id="aboutTitle">About Me</h2>
+            <p class="has-text-light has-text-centered">
+              Hello, My name is Alex and I am a Los Angeles based Web Developer and Programmer. I am versed in HTML, CSS, React, MySQL, Express, MERN, Javascript, Web and 3rd-party 
+              APIs, NODE and much more. Although I already have a degree, I am in pursuit of a second B.S. in Computer Engineering and have completed a Coding Bootcamp from 
+              Michigan State University. I am passionate about coding and web-based design, and am always looking to find new and innovative ways to bring a client's vision
+              to life. 
+              <i class="fa-brands fa-github"></i>
+            </p>
+          </div> 
+        </div>
+      </div>
     </div>
-  </section>
-  <script src="./assets/js/script.js"></script>
+
+    <section class="section">
+      <div class="container" id="projectSec">
+        <h2 class="title has-text-centered is-size-4" id="projects">Projects</h2>
+        <div class="columns mt-5 is-8 is-variable is-centered">
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/run-buddy.PNG" alt="Run Buddy Site Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-5"><a href="https://amartinezjr7.github.io/run-buddy/">Run Buddy</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/readMe-generator.JPG" alt="Read Me Generator Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-6"><a href="https://watch.screencastify.com/v/GxOOpL17bAtLegRst58B">Read Me Generator Backend</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/E-commerce-backend.JPG" alt="E-commerce Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-6"><a href="https://github.com/amartinezjr7/Module13-E-commerce-Backend">E-Commerce</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/note-taker.JPG" alt="Note Taker Site Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-5"><a href="https://frozen-mesa-12974.herokuapp.com/notes">Note Taker</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="columns mt-5 is-8 is-variable is-centered">
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/ZooKeeper.JPG" alt="ZooKeeper Site Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-5"><a href="https://stormy-island-89121.herokuapp.com/">Zoo Keeper</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/kitchen-around-you.PNG" alt="kitchen-around-you Site Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-6"><a href="https://kitchen-around-you.herokuapp.com/">Kitchen-Around-You</a></p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/MarvelMythos.JPG" alt="Marvel Mythos Site Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-5"><a href="https://cjsmith011.github.io/Marvel-Mythos/">Marvel Mythos</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card has-background-black">
+              <div class="card-image has-text-centered">
+                <img src="assets/images/GameDeets.png" alt="Game Deets Site Image">
+              </div>
+              <div class="card-content">
+                <p class="title is-size-5"><a href="https://robertrish.github.io/">Game Deets</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container has-background-black" id="contact" href="contact">
+        <h2 class="title is-4 has-text-centered" id="contactTitle">Contact Me</h2>
+        <div class="columns">
+          <div class="column has-text-centered" id="contactIcons">
+            <a class="px-4" href="https://github.com/amartinezjr7">
+              <i class="fab fa-github fa-5x"></i>
+            </a>
+            <a class="px-4" href="mailto:amartinezjr7@gmail.com">
+              <i class="fas fa-envelope fa-5x"></i>
+            </a>
+            <a class="px-4" href="tel:+3235478262">
+              <i class="fas fa-phone fa-5x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+<!--Footer-->
+    
+    <footer class="footer has-background-black">
+      <div class="content has-text-centered">
+        <p>
+          Copyright 2022 Alex Martinez Jr.
+        </p>
+      </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

@@ -1,1 +1,94 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+:root {
+    background-color: black;
+    --font-color-primary: rgb(170, 208, 250);
+    --background-primary:black;
+
+}
+
+body{
+    background-image: url("../images/something-great.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.header{
+    position: sticky;
+    position: -webkit-sticky;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.title {
+    color: var(--background-primary);
+    font-weight: bold;
+    padding: 20px;
+}
+
+#jobTitle {
+    color: var(--font-color-primary);
+}
+
+#navBar {
+    opacity: 90%;
+    background-color: var(--background-primary);
+}
+
+#about {
+    opacity: 85%;
+}
+
+#aboutTitle{
+    color: var(--font-color-primary);
+}
+
+#navItems {
+    color: var(--font-color-primary);
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+#portNavBar {
+    font-weight: bold; 
+    font-size: large;
+}
+
+#projectSec{
+    opacity: 80%;
+}
+
+#projects {
+    color: var(--font-color-primary);
+}
+
+.card {
+    width: 200px;
+    opacity: 95%;
+}
+#resume{
+    opacity: 90%;
+}
+#resumeTitle{
+    color: var(--font-color-primary);
+}
+
+#contact{
+    opacity: 85%;
+}
+
+#contactTitle {
+    color: var(--font-color-primary);
+}
+
+#contactIcons{
+    justify-content: space-between;
+}
