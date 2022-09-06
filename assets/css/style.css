@@ -88,3 +88,7 @@ body{
 #contactTitle {
     color: var(--font-color-primary);
 }
+
+#contactIcons{
+    justify-content: space-between;
+}
